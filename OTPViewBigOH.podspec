@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OTPViewBigOH'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of OTPViewBigOH is thaat it is fantastic.'
+  s.version          = '0.2.0'
+  s.summary          = 'This pod is about the custom OTP view that used UIView as subclass'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,16 +21,17 @@ Pod::Spec.new do |s|
 'this is a very good pod for otp view ebry developer should use it once in their lifetime i recommmend'
                        DESC
 
-  s.homepage         = 'https://github.com/mohdhammad786/OTPViewBigOH'
+  s.homepage         = 'https://github.com/mohdhammad786/OTPViewBigOH.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Mohammad Hammad' => 'mohammad.hammad@bigohtech.com' }
-  s.source           = { :git => 'https://github.com/mohdhammad786/OTPViewBigOH', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/mohdhammad786/OTPViewBigOH.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '13.0'
 
   s.source_files = 'OTPViewBigOH/Classes/**/*'
+  s.swift_versions = '5.0'
   
   # s.resource_bundles = {
   #   'OTPViewBigOH' => ['OTPViewBigOH/Assets/*.png']
