@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'OTPViewBigOH_Example' do
+  pod 'OTPViewBigOH', :path => '../'
+
+  target 'OTPViewBigOH_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
