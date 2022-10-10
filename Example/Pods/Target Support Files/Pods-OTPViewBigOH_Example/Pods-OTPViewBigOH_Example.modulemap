@@ -1,0 +1,6 @@
+framework module Pods_OTPViewBigOH_Example {
+  umbrella header "Pods-OTPViewBigOH_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

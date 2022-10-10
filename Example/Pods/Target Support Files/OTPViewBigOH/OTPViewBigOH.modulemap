@@ -1,0 +1,6 @@
+framework module OTPViewBigOH {
+  umbrella header "OTPViewBigOH-umbrella.h"
+
+  export *
+  module * { export * }
+}

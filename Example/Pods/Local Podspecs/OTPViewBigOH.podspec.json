@@ -1,0 +1,22 @@
+{
+  "name": "OTPViewBigOH",
+  "version": "0.1.0",
+  "summary": "A short description of OTPViewBigOH.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Mohammad Hammad/OTPViewBigOH",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Mohammad Hammad": "mohammad.hammad@bigohtech.com"
+  },
+  "source": {
+    "git": "https://github.com/Mohammad Hammad/OTPViewBigOH.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "OTPViewBigOH/Classes/**/*"
+}
